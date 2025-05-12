@@ -1,0 +1,184 @@
+/* ------------------------------------- */
+/* Reinicio de los estilos para borrar modificaciones del navegador */
+/* ------------------------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+
+/* ------------------------------------- */
+/* Estilos para el HOME */
+/* ------------------------------------- */
+
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48pt;
+    text-align: center;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28pt;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    padding: 1% 3%;
+    text-decoration: none;
+    color: white;
+    background-color: gray;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+/* ------------------------------------- */
+/* Estilos para las secciones */
+/* ------------------------------------- */
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+
+header{
+    background-color: beige;
+    padding: 5%;
+}
+
+nav{
+    background-color: blanchedalmond;
+    padding: 5%;
+
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: cornsilk;
+    padding: 5%;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: burlywood;
+    padding: 1%;
+    text-align: center;
+}
+body {
+    font-family: 'Google Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fafafa;
+}
+
+/* Contenedor principal */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Sección del Abismo */
+.info-abismo, .niveles {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de los niveles */
+.grid-niveles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.nivel {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+}
+.personajes {
+    display: flex; /* Organiza los elementos en fila */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias líneas si es necesario */
+    justify-content: center; /* Centra los elementos en el contenedor */
+    gap: 20px; /* Espacio entre los personajes */
+    padding: 20px;
+}
+
+/* Contenedor individual de cada personaje */
+.personaje {
+    display: flex;
+    flex-direction: column; /* Imagen encima y texto abajo */
+    align-items: center; /* Centra los elementos */
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la imagen */
+.personajesimg {
+    width: 100%;
+    max-width: 150px; /* Tamaño más pequeño */
+    height: auto;
+    border-radius: 10px;
+}
+.MAPA{ display: block;
+    margin: auto;
+    width: 50%
+
+}
+.MOUNSTROS{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+ 
